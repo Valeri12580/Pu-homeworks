@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Bar {
+    private final String name= "Pu party club";
     private List<PartyNight> partyNightList;
     private  Accounting accounting;
 
@@ -30,5 +31,9 @@ public class Bar {
 
     public void setAccounting(Accounting accounting) {
         this.accounting = accounting;
+    }
+
+    public String getName() {
+        return name;
     }
 }

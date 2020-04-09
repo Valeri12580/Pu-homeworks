@@ -7,7 +7,7 @@ public class PartyNight {
     private String partyName;
     private double entityPrice;
     private LocalDate date;
-    private int maxClients;
+    private int clients;
     private NightStream stream;
 
 
@@ -15,7 +15,7 @@ public class PartyNight {
         setPartyName(partyName);
         setEntityPrice(price);
      setDate(date);
-  setMaxClients(maxClients);
+  setClients(maxClients);
       setStream(stream);
     }
 
@@ -43,12 +43,12 @@ public class PartyNight {
         this.date = date;
     }
 
-    public int getMaxClients() {
-        return maxClients;
+    public int getClients() {
+        return clients;
     }
 
-    public void setMaxClients(int maxClients) {
-        this.maxClients = maxClients;
+    public void setClients(int clients) {
+        this.clients = clients;
     }
 
     public NightStream getStream() {
