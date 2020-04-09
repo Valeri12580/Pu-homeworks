@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+D:\Programming\MyCode\PU Paisii Hilendarski\C++\finalen izpit\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(44,20): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+D:\Programming\MyCode\PU Paisii Hilendarski\C++\finalen izpit\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(47,2): warning C4305: 'initializing': truncation from 'int' to 'char'
+D:\Programming\MyCode\PU Paisii Hilendarski\C++\finalen izpit\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(44,20): warning C4309: 'initializing': truncation of constant value
+D:\Programming\MyCode\PU Paisii Hilendarski\C++\finalen izpit\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(45,14): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+D:\Programming\MyCode\PU Paisii Hilendarski\C++\finalen izpit\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(45,14): warning C4309: 'initializing': truncation of constant value
+  ConsoleApplication1.vcxproj -> D:\Programming\MyCode\PU Paisii Hilendarski\C++\finalen izpit\ConsoleApplication1\Debug\ConsoleApplication1.exe

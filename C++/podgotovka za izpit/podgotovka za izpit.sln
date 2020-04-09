@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "podgotovka za izpit", "podgotovka za izpit\podgotovka za izpit.vcxproj", "{8F7530A1-523A-44D4-95E4-D94F045729A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Debug|x64.ActiveCfg = Debug|x64
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Debug|x64.Build.0 = Debug|x64
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Debug|x86.Build.0 = Debug|Win32
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Release|x64.ActiveCfg = Release|x64
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Release|x64.Build.0 = Release|x64
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Release|x86.ActiveCfg = Release|Win32
+		{8F7530A1-523A-44D4-95E4-D94F045729A9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD9F2F2-1F49-4753-99A0-C041C0E752EC}
+	EndGlobalSection
+EndGlobal
