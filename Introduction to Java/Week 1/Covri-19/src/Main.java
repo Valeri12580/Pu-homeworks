@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+        //не е довършено....
         PartyNight partyNight=new PartyNight("EXTREME PARTY",1500.12, LocalDate.now(),300,new NightStream());
 
         bar.addPartyNight(partyNight);
