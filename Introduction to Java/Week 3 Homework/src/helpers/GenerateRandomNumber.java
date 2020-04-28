@@ -15,7 +15,6 @@ public final class GenerateRandomNumber {
 
     }
 
-
     public static int generateRandomNumber(int bound){
         return  random.nextInt(bound)+1;
     }
