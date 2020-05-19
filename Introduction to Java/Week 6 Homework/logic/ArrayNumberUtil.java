@@ -4,6 +4,8 @@ import data.Menus;
 import logic.base.ArrayUtil;
 
 import java.util.*;
+import java.util.stream.Collectors;
+
 
 public class ArrayNumberUtil extends ArrayUtil<Integer> {
 
@@ -74,7 +76,9 @@ public class ArrayNumberUtil extends ArrayUtil<Integer> {
                 result = String.format("The max sequence of equal numbers %s", this.findMaxSequenceOf("equal"));
                 break;
             case 6:
-                result = "I didn't have time to implement it.";
+
+                result = findSequenceSumRandom();
+                result = result == null ? "There is not result" : String.format("%s", result);
                 break;
 
         }
@@ -117,7 +121,7 @@ public class ArrayNumberUtil extends ArrayUtil<Integer> {
 
 
     //5 1 0 6 8
-    public String findMaxSequenceOf(String type) {
+    private String findMaxSequenceOf(String type) {
         List<Integer> result = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
         boolean clear = true;
@@ -179,5 +183,44 @@ public class ArrayNumberUtil extends ArrayUtil<Integer> {
 
     }
 
+    private String findSequenceSumRandom() {
 
+        Random random = new Random();
+
+        int sumOfData = super.data.stream().mapToInt(Integer::intValue).sum();
+
+        int randomNumber = random.nextInt(sumOfData) + 1;
+        System.out.printf("Generated number: %d\n", randomNumber);
+
+        List<Integer> temp = new ArrayList<>();
+
+        int currentSum = 0;
+
+
+        for (int i = 0; i < super.data.size(); i++) {
+            for (int j = i; j < super.data.size(); j++) {
+
+                int number = super.data.get(j);
+
+                currentSum += number;
+
+                if (currentSum == randomNumber) {
+                    temp.add(number);
+                    return String.join(",", String.valueOf(temp));
+                }
+                if (currentSum < randomNumber) {
+                    temp.add(number);
+
+                } else {
+                    currentSum = 0;
+                    temp.clear();
+                    break;
+                }
+            }
+        }
+        return null;
+
+
+    }
 }
+

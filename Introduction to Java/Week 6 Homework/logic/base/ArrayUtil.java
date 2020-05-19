@@ -13,7 +13,6 @@ public abstract class ArrayUtil<T> {
         this.data = new ArrayList<>();
     }
 
-
     public abstract void run();
 
 
