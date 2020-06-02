@@ -1,0 +1,8 @@
+{TYPE}=[W]@{FNAME}=[Mihail]@{LNAME}=[Petrov]@{AGE}=[28]@{SEX}=[M]@{ADDRESS}=[Plovdiv]@{PHONE}=[0885555555]@{SPECIAL_PROPERTY}::{SALARY}=[420]
+{TYPE}=[M]@{FNAME}=[Maria]@{LNAME}=[Naskova]@{AGE}=[22]@{SEX}=[F]@{ADDRESS}=[Sofia]@{PHONE}=[0885555577]@{SPECIAL_PROPERTY}::{KID}=[{KFNAME}=[Nencho]@{KLNAME}=[Nakov]@{KAGE}=[6]]:{KID}=[{KFNAME}=[Redolub]@{KLNAME}=[Nakov]@{KAGE}=[7]]
+{TYPE}=[W]@{FNAME}=[Valeri]@{LNAME}=[Stoqnov]@{AGE}=[19]@{SEX}=[M]@{ADDRESS}=[Plovdiv]@{PHONE}=[0888888888]@{SPECIAL_PROPERTY}::{SALARY}=[0]
+{TYPE}=[SOME DATA]@{FNAME}=[Error]@{LNAME}=[test]@{AGE}=[321]@{SEX}=[Other]@{ADDRESS}=[Balkana]@{PHONE}=[3]@{SPECIAL_PROPERTY}::{SALARY}=[0]
+{TYPE}=[W]@{FNAME}=[Pesho]@{LNAME}=[Test]@{AGE}=[129]@{SEX}=[F]@{ADDRESS}=[Klisura]@{PHONE}=[0888888888]@{SPECIAL_PROPERTY}::{PENSION}=[5]
+{TYPE}=[R]@{FNAME}=[Stanka]@{LNAME}=[Ivanova]@{AGE}=[150]@{SEX}=[F]@{ADDRESS}=[Poleto]@{PHONE}=[0885555555]@{SPECIAL_PROPERTY}::{PENSION}=[150]
+{TYPE}=[M]@{FNAME}=[Aishe]@{LNAME}=[Hadjimakak]@{AGE}=[12]@{SEX}=[F]@{ADDRESS}=[Rozino]@{PHONE}=[0834562473]@{SPECIAL_PROPERTY}::{KID}=[{KFNAME}=[Genio]@{KLNAME}=[Hadjimakak]@{KAGE}=[12]]:{KID}=[{KFNAME}=[Chernio]@{KLNAME}=[Dondo]@{KAGE}=[7]]
+
